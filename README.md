@@ -8,7 +8,7 @@ This repository contains a PyTorch implementation of the classic AlexNet Convolu
 
 The goal of this project is to implement , train , and evaluate the renowned AlexNet architecture on a smaller, more common benchmark dataset, CIFAR-10, demonstrating the effectiveness of deep convolutional networks for image recognition tasks.
 
-The training process is detailed in the ** AlexNet_CIFAR10.ipynb ** Jupyter Notebook.
+The training process is detailed in the `AlexNet_CIFAR10.ipynb` Jupyter Notebook.
 
 ---
 
@@ -19,7 +19,7 @@ AlexNet is a deep convolutional network that significantly influenced the field 
 ### Key features of the implementation:
 
 - Layer Structure: 
-  The model follows the original AlexNet layout, adapted slightly for the smaller \( 32 \times 32 \) CIFAR-10 images (e.g., adjusting kernel sizes or the final fully connected layers).
+  The model follows the original AlexNet layout, adapted slightly for the smaller \( 32 \times 32 \) CIFAR-10 images (example.. , adjusting kernel sizes or the final fully connected layers).
 
 - Training :
   Trained using the Adam optimizer and Cross-Entropy Loss over 20 epochs.
